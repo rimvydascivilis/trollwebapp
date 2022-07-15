@@ -22,7 +22,7 @@ function App() {
   }
   else if (fullScreen && !videoEnded) {
     return (
-      <div>
+      <div className='middle'>
         <video className='video' autoPlay="autoPlay" onEnded={() => setVideoEnded(true)}>
           <source src="video.mp4" type="video/mp4" />
         </video>
@@ -31,7 +31,9 @@ function App() {
   }
   else if (fullScreen && videoEnded) {
     return (
-      <img className='picture' draggable="false" alt='Spooky scarry' src='clown.jpg' />
+      <div className='center'>
+        <img className='picture' draggable="false" alt='Spooky scarry' src='clown.jpg' />
+      </div>
     )
   }
 }
