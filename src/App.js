@@ -31,7 +31,7 @@ function App() {
   }
   else if (fullScreen && videoEnded) {
     return (
-      <img alt='Spooky scarry' src='clown.jpg' />
+      <img className='picture' draggable="false" alt='Spooky scarry' src='clown.jpg' />
     )
   }
 }
