@@ -1,1 +1,1 @@
-# This is web app is created to scary friends
+# This is web app is created to scare friends
